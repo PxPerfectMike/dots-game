@@ -117,10 +117,22 @@ body {
 		grid-column: 2/11;
 		grid-row: 3/10;
 		top: 30vh;
+		width: calc(var(--game-container-size) / 1.2);
+		height: calc(var(--game-container-size) / 1.2);
+	}
+
+	.game-item {
+		justify-self: center;
+		align-self: center;
+		width: calc(var(--game-item-size) / 1.2);
+		height: calc(var(--game-item-size) / 1.2);
+		border-radius: 50%;
+		resize: both;
 	}
 
 	.title {
-		font-size: 4rem;
+		font-size: 3rem;
+		top: 5.5vh;
 	}
 }
 
